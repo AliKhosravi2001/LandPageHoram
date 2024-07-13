@@ -2,8 +2,22 @@
   font-family: "ffarnaz";
   src: url(./Far_Farnaz.ttf);
 }
+@font-face {
+    font-family: "fanjoman";
+    src: url(./Anjoman-Light.ttf);
+}
+@font-face {
+    font-family: fanjomanb;
+    src: url(./AnjomanMax-Bold.ttf);
+}
 .farnaz{
     font-family: "ffarnaz";
+}
+.anjoman{
+    font-family: fanjoman;
+}
+.anjomanb{
+    font-family: fanjomanb;
 }
 .navbar{
     background-color: rgb(78, 73, 0);
