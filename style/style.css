@@ -65,3 +65,8 @@
     font-size: 100px;
   }
 }
+@media only screen and (max-width: 800px){
+  .text-nav{
+    font-size: 13px;
+  }
+}
