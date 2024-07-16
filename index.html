@@ -14,22 +14,109 @@
   </head>
   <body>
     <nav class="navbar position-sticky">
-      <a class="navbar-brand" href="https://alikhosravi2001.github.io/LandPageHoram/">
-        <img src="./horam.jpg" class="logoTop" alt="Hooram"/>
-        <h1 class="d-inline anjomanb text-light mr">هورام</h1>
+      <a
+        class="navbar-brand"
+        href="https://alikhosravi2001.github.io/LandPageHoram/"
+      >
+        <img src="./pic/horam.jpg" class="logoTop" alt="Hooram" />
+        <h1 class="d-inline farnaz text-light mr">هورام</h1>
       </a>
       <div class="d-flex gap-3">
-        <button class="btn btn-lg btn-outline-secondary anjoman" type="button">
-          خرید از چین
-        </button>
-        <button class="btn btn-lg btn-outline-secondary anjoman" type="button">
-          خرید از امارات
-        </button>
-        <button class="btn btn-lg btn-outline-secondary anjoman" type="button">
-          خرید از ترکیه
-        </button>
+        <a href="China-store">
+          <button class="btn btn-lg btn-outline-secondary farnaz" type="button">
+            خرید از چین
+          </button>
+        </a>
+        <a href="Emirates-Store">
+          <button class="btn btn-lg btn-outline-secondary farnaz" type="button">
+            خرید از امارات
+          </button>
+        </a>
+        <a href="Turkiye-store">
+          <button class="btn btn-lg btn-outline-secondary farnaz" type="button">
+            خرید از ترکیه
+          </button>
+        </a>
       </div>
     </nav>
+
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide CustomCarousel bg-color "
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner border-radius">
+        <div class="carousel-item active position-relative ">
+          <a href="China-store">
+            <img
+              src="./pic/alibaba.jpg"
+              class="d-block w-100 border-radius"
+              alt="خرید از چین"
+            />
+            <div
+              class="bg-black w-100 h-100 position-absolute top-0 opacity-50 border-radius"
+            ></div>
+            <h1
+              class="anjoman text-center w-100 h-100 position-absolute top-0 text-style mt-50"
+            >
+              خرید از چین
+            </h1>
+          </a>
+        </div>
+        <div class="carousel-item position-relative">
+          <a href="Turkiye-store">
+            <img
+              src="./pic/Türkiye.jpg"
+              class="d-block w-100 border-radius"
+              alt="خرید از ترکیه"
+            />
+            <div
+              class="bg-black w-100 h-100 position-absolute top-0 opacity-50 border-radius"
+            ></div>
+            <h1
+              class="anjoman text-center w-100 h-100 position-absolute top-0 text-style mt-50"
+            >
+              خرید از ترکیه
+            </h1>
+          </a>
+        </div>
+        <div class="carousel-item position-relative">
+          <a href="Emirates-Store">
+            <img
+              src="./pic/UAE.jpg"
+              class="d-block w-100 border-radius"
+              alt="خرید از امارات"
+            />
+            <div
+              class="bg-black w-100 h-100 position-absolute top-0 opacity-50 border-radius"
+            ></div>
+            <h1
+              class="anjoman text-center w-100 h-100 position-absolute top-0 text-style mt-50"
+            >
+              خرید از امارات
+            </h1>
+          </a>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </body>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

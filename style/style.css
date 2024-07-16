@@ -3,46 +3,69 @@
   src: url(./Far_Farnaz.ttf);
 }
 @font-face {
-    font-family: "fanjoman";
-    src: url(./Anjoman-Light.ttf);
+  font-family: "fanjoman";
+  src: url(./Anjoman-Light.ttf);
 }
 @font-face {
-    font-family: fanjomanb;
-    src: url(./AnjomanMax-Bold.ttf);
+  font-family: fanjomanb;
+  src: url(./AnjomanMax-Bold.ttf);
 }
-.farnaz{
-    font-family: "ffarnaz";
+.farnaz {
+  font-family: "ffarnaz";
 }
-.anjoman{
-    font-family: fanjoman;
+.anjoman {
+  font-family: fanjoman;
 }
-.anjomanb{
-    font-family: fanjomanb;
+.anjomanb {
+  font-family: fanjomanb;
 }
-.navbar{
-    background-color: rgb(78, 73, 0);
+.navbar {
+  background-color: rgb(78, 73, 0);
 }
 .logoTop {
   width: 60px;
   height: 60px;
   border-radius: 10px;
 }
-.mr{
-    margin-right: 20px;
+.mr {
+  margin-right: 20px;
 }
 .btn-outline-secondary {
-    --bs-btn-color: #f8f9fa;
-    --bs-btn-border-color: #f8f9fa;
-    --bs-btn-hover-color: #0f181e;
-    --bs-btn-hover-bg: #f2d113;
-    --bs-btn-hover-border-color: #f2ce10;
-    --bs-btn-focus-shadow-rgb: 108,117,125;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #bea40f;
-    --bs-btn-active-border-color: #bea40f;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #6c757d;
-    --bs-btn-disabled-bg: transparent;
-    --bs-btn-disabled-border-color: #f8f9fa;
-    --bs-gradient: none;
-  }
+  --bs-btn-color: #f8f9fa;
+  --bs-btn-border-color: #f8f9fa;
+  --bs-btn-hover-color: #0f181e;
+  --bs-btn-hover-bg: #f2d113;
+  --bs-btn-hover-border-color: #f2ce10;
+  --bs-btn-focus-shadow-rgb: 108, 117, 125;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #bea40f;
+  --bs-btn-active-border-color: #bea40f;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #6c757d;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #f8f9fa;
+  --bs-gradient: none;
+}
+.CustomCarousel {
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.border-radius {
+  border-radius: 10px;
+}
+.bg-color {
+  background-color: rgb(255, 247, 198);
+}
+.bg-horam{
+    background-color: rgb(78, 73, 0);
+}
+.mt-50{
+    margin-top: 21%;
+}
+
+.text-style{
+    opacity: 100%;
+    color: #fff;
+}
