@@ -46,17 +46,8 @@
   --bs-btn-disabled-border-color: #f8f9fa;
   --bs-gradient: none;
 }
-.CustomCarousel {
-  padding-left: 6%;
-  padding-right: 6%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 .border-radius {
   border-radius: 10px;
-}
-.bg-color {
-  background-color: rgb(255, 247, 198);
 }
 .bg-horam{
     background-color: rgb(78, 73, 0);
