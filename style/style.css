@@ -110,3 +110,30 @@
 .border-non{
   border-width: 0;
 }
+.telegram{
+  width: 4rem;
+  height: 4rem;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: white;
+  border-radius: 50%;
+}
+footer{
+  background-color: rgb(43, 41, 0);
+  color: white;
+  margin-top: 20px;
+}
+.footer-lower {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+.input-group .form-control {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.input-group .btn {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
