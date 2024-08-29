@@ -35,6 +35,7 @@
 .title {
   p {
     font-size: x-small;
+    font-weight: bold;
     padding-right: 20px;
     margin: 0;
   }
