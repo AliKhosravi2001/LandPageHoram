@@ -20,7 +20,7 @@
   font-family: fanjomanb;
 }
 .navbar {
-  background-color: rgb(78, 73, 0);
+  background-color: #FFC109;
   z-index: 1;
 }
 .m{
@@ -36,12 +36,12 @@
   margin-right: 20px;
 }
 .btn-outline-secondary {
-  --bs-btn-color: #0f181e;
-  --bs-btn-border-color: #f2ce10;
-  --bs-btn-bg: #f2d113;
-  --bs-btn-hover-color: #f8f9fa;
+  --bs-btn-color: #ffffff;
+  --bs-btn-border-color: #0f181e;
+  --bs-btn-bg: rgb(78, 73, 0);
+  --bs-btn-hover-color: #0f181e;
   --bs-btn-hover-bg: transparent;
-  --bs-btn-hover-border-color: #f8f9fa;
+  --bs-btn-hover-border-color: #0f181e;
   --bs-btn-focus-shadow-rgb: 242, 209, 19;
   --bs-btn-focus-color: #f8f9fa;
   --bs-btn-focus-bg: #0f181e;
@@ -59,7 +59,7 @@
   border-radius: 10px;
 }
 .bg-horam {
-  background-color: rgb(78, 73, 0);
+  background-color: #FFC109;
 }
 .mt-50 {
   margin-top: 19%;
@@ -81,14 +81,6 @@
 }
 .blogs {
   gap: 48px;
-}
-.card-body {
-  h5 {
-    color: white;
-  }
-  p {
-    color: white;
-  }
 }
 /* ------------------------------------- */
 .nl{
@@ -120,8 +112,7 @@
   border-radius: 50%;
 }
 footer{
-  background-color: rgb(43, 41, 0);
-  color: white;
+  background-color: rgb(212, 204, 155);
   margin-top: 20px;
 }
 .footer-lower {
