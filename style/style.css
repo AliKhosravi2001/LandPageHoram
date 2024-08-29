@@ -20,10 +20,10 @@
   font-family: fanjomanb;
 }
 .navbar {
-  background-color: #FFC109;
+  background-color: #ffc109;
   z-index: 1;
 }
-.m{
+.m {
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -31,6 +31,12 @@
   width: 60px;
   height: 60px;
   border-radius: 10px;
+}
+.title {
+  p {
+    font-size: x-small;
+    padding-right: 20px;
+  }
 }
 .mr {
   margin-right: 20px;
@@ -59,7 +65,7 @@
   border-radius: 10px;
 }
 .bg-horam {
-  background-color: #FFC109;
+  background-color: #ffc109;
 }
 .mt-50 {
   margin-top: 19%;
@@ -83,26 +89,26 @@
   gap: 48px;
 }
 /* ------------------------------------- */
-.nl{
+.nl {
   text-decoration: none;
 }
-.titr{
+.titr {
   padding-top: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
 }
-.khat{
+.khat {
   width: 40%;
   height: 1px;
   background-color: rgb(195, 195, 195);
 }
 /* ------------------------------------- */
-.border-non{
+.border-non {
   border-width: 0;
 }
-.telegram{
+.telegram {
   width: 4rem;
   height: 4rem;
   position: fixed;
@@ -111,7 +117,7 @@
   background-color: white;
   border-radius: 50%;
 }
-footer{
+footer {
   background-color: rgb(212, 204, 155);
   margin-top: 20px;
 }
@@ -129,6 +135,6 @@ footer{
   border-bottom-right-radius: 0;
 }
 
-.pl-1{
+.pl-1 {
   padding-left: 1rem;
 }
