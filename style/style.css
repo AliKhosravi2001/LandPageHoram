@@ -33,12 +33,14 @@
   border-radius: 10px;
 }
 .title {
+  position: relative;
   p {
+    position: absolute;
+    top: 35px;
+    right: 36px;
     font-size: small;
     font-weight: bold;
-    padding-right: 20px;
     margin: 0;
-    text-align: center;
   }
 }
 .mr {
