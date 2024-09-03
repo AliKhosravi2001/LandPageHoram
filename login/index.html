@@ -16,19 +16,22 @@
   <body>
     <div class="container" id="container">
       <div class="form-container sign-up-container">
-        <form action="#">
+        <form id="formUP" action="#">
           <h1>ایجاد حساب</h1>
-          <input type="text" placeholder="نام و نام خانوادگی" />
-          <input type="email" placeholder="شماره موبایل" />
-          <button>ثبت نام</button>
+          <input id="nameinput" type="text" placeholder="نام و نام خانوادگی" />
+          <small id="nameeror"></small>
+          <input id="mobileUP" placeholder="شماره موبایل" />
+          <small id="mobileeror"></small>
+          <button type="submit">ثبت نام</button>
         </form>
       </div>
       <div class="form-container sign-in-container">
-        <form action="#">
+        <form id="formIN" action="#">
           <h1>ورود</h1>
           <span>لطفا شماره موبایل خود را وارد کنید</span>
-          <input type="email" />
-          <button>ورود</button>
+          <input id="mobileIN" />
+          <small id="mobileerorIN"></small>
+          <button type="submit">ورود</button>
         </form>
       </div>
 
